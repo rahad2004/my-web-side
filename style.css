@@ -11,6 +11,9 @@ body {
   font-weight: 700;
   padding: 15px 35px;
 }
+main section {
+  margin-top: 130px;
+}
 /* nav releted style */
 nav {
   display: flex;
@@ -53,9 +56,8 @@ ul li a {
   align-items: center;
   justify-content: space-between;
 }
-.banner-contant{
+.banner-contant {
   max-width: 500px;
-  
 }
 .profile {
   width: 584px;
@@ -79,5 +81,101 @@ div p {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
-  margin: 5px ,0px;
+  margin: 5px, 0px;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  background-color: #08f313;
+}
+
+/* main contain suru */
+main {
+  max-width: 1040px;
+  margin: 0px auto;
+}
+/* about contain suru */
+.about {
+  padding: 131px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  margin: 130px 0px;
+}
+.common-h {
+  color: var(--Dark-01, #181818);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.about-p {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+}
+.info-title {
+  margin-bottom: 0px;
+}
+.info-body {
+  margin-top: 0px;
+}
+/* what i do reletade */
+.what-i-do {
+  margin-top: 130px;
+}
+#p-padding {
+  padding: 30px 150px;
+  text-align: center;
+}
+.scills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-descreption {
+  color: #757575;
+}
+/* resumi */
+.resume-titale {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.rusume-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.resume-item-instutite {
+  color: var(--Dark-03, #757575);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.resume-item-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+
+}
+.download-button{
+  text-align: center;
+  margin-top: 50px;
 }
